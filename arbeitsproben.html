@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+
+    <title>Arbeitsproben</title>
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- link to icons -->
+    <link rel="stylesheet" href="fontawesome-free-5.10.1-web/css/all.css" />
+    <!-- link to google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="arbeitsproben">
+    <!-- NAVIGATION -->
+    <nav>
+      <div class="button">
+        <a href="#">menu</a>
+      </div>
+
+      <ul class="menu">
+        <li><a href="./index.html">home</a></li>
+        <li>
+          <a href="./aboutme.html">about me</a>
+          <ul>
+            <li><a href="./contact.html" class="submenu">contact</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="./projekte.html">projekte</a>
+          <ul>
+            <li><a href="./projekt1.html" class="submenu">projekt 1</a></li>
+            <li><a href="./projekt2.html" class="submenu">projekt 2</a></li>
+            <li><a href="./projekt3.html" class="submenu">projekt 3</a></li>
+          </ul>
+        </li>
+        <li><a href="./arbeitsproben.html" class="active">arbeitsproben</a></li>
+        <li><a href="./links.html">links</a></li>
+      </ul>
+    </nav>
+    <!-- image - top - behind the navbar -->
+    <div>
+      <img src="css/images_div/diary-968592_1920.jpg" class="newImg" alt="" />
+    </div>
+    <!-- HEADER -->
+    <div class="fixed-header">
+      <header>
+        <section>
+          <h1 class="heading1">Arbeitsproben</h1>
+          <h3 class="text-size">
+            Lorem ipsum dolor sit amet consectetur elit durum surum nam.
+          </h3>
+        </section>
+      </header>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <!-- CSS GRID -->
+    <div class="main-content">
+      <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+      </div>
+    </div>
+
+    <!--  -->
+    <!-- BOTTOM OF PAGE -->
+    <div class="bottom">
+      <div class="main clearfix small" id="bottom">
+        <section>
+          <a href="#" class="social-icon">
+            <span class="fab fa-facebook fa-3x"></span>
+          </a>
+          <h3 class="icon-text">facebook</h3>
+        </section>
+
+        <section>
+          <a href="#" class="social-icon">
+            <span class="fab fa-instagram fa-3x"></span>
+          </a>
+          <h3 class="icon-text">instagram</h3>
+        </section>
+
+        <section>
+          <a href="#" class="social-icon">
+            <span class="fab fa-twitter fa-3x"></span>
+          </a>
+          <h3 class="icon-text">twitter</h3>
+        </section>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="home_footer">
+      <h3>Design &copy;Nora Niederer</h3>
+    </footer>
+
+    <!--  -->
+    <!-- JQUERY -->
+    <!-- jquery  toggle menu button-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $(".button").click(function() {
+          $("ul.menu").slideToggle("slow", function() {
+            // Animation complete.
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
