@@ -59,6 +59,22 @@ h2 {
   padding: 0.5em;
 }
 
+h5 {
+  text-align: right;
+  font-weight: normal;
+  padding-top: 0.5em;
+}
+
+h1 a {
+  text-decoration: none;
+  color: var(--darkColor1);
+}
+
+h5 a {
+  text-decoration: none;
+  color: var(--darkColor1);
+}
+
 /* */
 /* TOP NAVBAR - MAIN MENU */
 nav ul {
@@ -78,6 +94,12 @@ div.button {
   text-align: center;
   font-size: 1.2em;
   background-color: var(--lightColor0);
+  border-bottom: 1px solid va(--darkColor2);
+  border: 0.2px solid var(--lightColor1);
+}
+
+div.button {
+  border: none;
 }
 /* main menu links */
 nav ul li a {
@@ -90,6 +112,7 @@ nav ul li a {
 }
 .active {
   background-color: var(--lightColor1);
+  border: 0.5px solid var(--darkColor2);
 }
 
 /* hover main menu */
@@ -102,25 +125,28 @@ nav ul li a:hover:not(.active) {
 nav > ul > li > ul {
   position: absolute;
   top: 0%;
-  left: 66%;
+  left: 62%;
   z-index: 2;
   font-size: 0.8em;
   background-color: var(--lightColor0);
-  border: 0.2px solid var(--darkColor2);
+  border: 1px solid var(--lightColor1);
   padding: 0.2em;
-  visibility: hidden;
-  /* visibility: visible; */
+  /* visibility: hidden; */
+  visibility: visible;
+  width: 28%;
 }
 
 /* sub-menu links */
 .active.submenu {
   text-decoration: underline;
   background-color: var(--lightColor0);
+  border: none;
 }
 
 /* hover sub-menu */
 a.submenu:hover:not(.active) {
   color: var(--darkColor2);
+  background-color: var(--lightColor0);
   border: none;
   text-decoration: underline;
 }
@@ -128,7 +154,7 @@ a.submenu:hover:not(.active) {
 /* hover to display sub-menu */
 nav > ul > li:hover > ul {
   visibility: visible;
-  width: 20%;
+  width: 28%;
 }
 
 /* MENU BUTTON */
@@ -151,6 +177,7 @@ div.button a {
   padding-top: 2em;
   height: 5em;
 }
+
 .button:hover {
   background-color: var(--darkColor2);
 }
@@ -239,6 +266,9 @@ div.fixed-header {
 /* MAIN SECTION */
 /* CSS GRID (container)*/
 /* home, projekte, arbeitsproben */
+
+body.arbeitsproben .container > div {
+}
 .container {
   display: grid;
   grid-gap: 1.5em;
@@ -514,7 +544,7 @@ a.button-img:hover {
   text-align: justify;
   padding: 5px;
   margin-top: 0em;
-  z-index: 100;
+  z-index: 10;
 }
 
 body.projekt1 .bottom {
@@ -549,17 +579,22 @@ footer#home_footer {
   nav ul li {
     display: inline-block;
     width: 8em;
+    border: none;
   }
 
   /* sub menu */
   nav > ul > li > ul {
     top: 100%;
     left: 0;
-    /* visibility: hidden; */
+    visibility: hidden;
   }
 
   nav > ul > li:hover > ul {
     width: 100%;
+  }
+
+  .active {
+    border: none;
   }
 
   /* header */
@@ -695,5 +730,16 @@ footer#home_footer {
 
   .fixed-header header {
     margin: 1.5em 0em;
+  }
+
+  nav > ul > li {
+    text-align: left;
+    border: 0.2px solid var(--lightColor1);
+  }
+  nav > ul > li > a {
+    padding-left: 0.5em;
+  }
+  nav > ul > li > ul {
+    left: 50%;
   }
 }
