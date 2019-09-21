@@ -741,5 +741,6 @@ footer#home_footer {
   }
   nav > ul > li > ul {
     left: 50%;
+    width: 33%;
   }
 }
