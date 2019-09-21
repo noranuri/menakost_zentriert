@@ -158,21 +158,25 @@ div.button a {
   color: var(--lightColor0);
 }
 
+/* newImg behind menu */
+
 .newImg {
-  margin-top: 6em;
+  top: 6em;
   width: 100%;
   position: absolute;
+  left: 0;
+  right: 0;
   z-index: -3;
 }
 
 body.projekt1 .newImg {
-  margin-top: -26em;
+  margin-top: -4em;
 }
 body.projekt2 .newImg {
-  margin-top: -20em;
+  margin-top: -2em;
 }
 body.projekt3 .newImg {
-  margin-top: -11em;
+  margin-top: -1em;
 }
 
 /* HEADER */
@@ -547,6 +551,7 @@ footer#home_footer {
     width: 8em;
   }
 
+  /* sub menu */
   nav > ul > li > ul {
     top: 100%;
     left: 0;
@@ -691,10 +696,4 @@ footer#home_footer {
   .fixed-header header {
     margin: 1.5em 0em;
   }
-  /* .newImg {
-    margin-top: 6em;
-    width: 100%;
-    position: absolute;
-    z-index: -3;
-  } */
 }
