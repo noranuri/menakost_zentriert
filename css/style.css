@@ -732,6 +732,10 @@ footer#home_footer {
     margin: 0.5em 0em;
   }
 
+  header h3 {
+    margin-top: 0.5em;
+  }
+
   nav > ul > li {
     text-align: left;
     border: 0.2px solid var(--lightColor1);
