@@ -267,8 +267,6 @@ div.fixed-header {
 /* CSS GRID (container)*/
 /* home, projekte, arbeitsproben */
 
-body.arbeitsproben .container > div {
-}
 .container {
   display: grid;
   grid-gap: 1.5em;
