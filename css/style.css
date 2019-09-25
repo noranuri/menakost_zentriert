@@ -485,6 +485,8 @@ a.button1:hover {
 /* send mail button */
 a.button1.mail:hover {
   background-color: var(--darkColor3);
+  color: var(--lightColor0);
+  border: 0.5px solid var(--lightColor0);
 }
 
 /* button with an image (projekt1)*/
