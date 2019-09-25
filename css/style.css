@@ -278,9 +278,13 @@ div.fixed-header {
   padding-bottom: 20em;
 }
 
-.texte img {
-  max-height: 300px;
-  max-width: 400px;
+.texte .container {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.texte .container img {
+  max-height: 250px;
 }
 
 .texte h5 {
@@ -298,6 +302,11 @@ div.fixed-header {
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-template-rows: repeat(auto-fit, auto);
   margin-top: 1.5em;
+}
+
+.texte .container {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, auto);
 }
 
 .container div {
@@ -676,6 +685,10 @@ footer#home_footer {
   .main-content {
     margin: 26em 0em 0em 0em;
   }
+  .texte .container {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
 
   /* css grid */
   /* home, projekte, texte */
@@ -824,6 +837,10 @@ footer#home_footer {
   }
   .container {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  .texte .container {
+    margin-left: 0em;
+    margin-right: 0em;
   }
   .main-content {
     margin: 30em 0em 0em 0em;
