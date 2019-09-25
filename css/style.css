@@ -292,6 +292,10 @@ div.fixed-header {
   width: unset;
 }
 
+#mena {
+  border: 10px solid white;
+}
+
 .texte h5 {
   border-bottom: 0.25px solid var(--darkColor1);
   opacity: 0.75;
