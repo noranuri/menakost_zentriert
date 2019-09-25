@@ -279,8 +279,8 @@ div.fixed-header {
 }
 
 .texte .container {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .texte .container img {
@@ -313,10 +313,10 @@ div.fixed-header {
   margin-top: 1.5em;
 }
 
-.texte .container {
+/* .texte .container {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: repeat(auto-fit, auto);
-}
+} */
 
 .container div {
   background-color: var(--lightColor0);
