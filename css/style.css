@@ -471,7 +471,7 @@ a.button1 {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: var(--lightColor1);
+  background-color: var(--lightColor2);
   border: 0.5px solid var(--darkColor1);
   border-radius: 0.2em;
   color: var(--darkColor1);
@@ -484,7 +484,7 @@ a.button1:hover {
 
 /* send mail button */
 a.button1.mail:hover {
-  background-color: var(--lightColor2);
+  background-color: var(--darkColor3);
 }
 
 /* button with an image (projekt1)*/
