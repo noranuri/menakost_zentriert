@@ -75,6 +75,10 @@ h5 a {
   color: var(--darkColor1);
 }
 
+a {
+  color: var(--darkColor1);
+}
+
 /* */
 /* TOP NAVBAR - MAIN MENU */
 nav ul {
