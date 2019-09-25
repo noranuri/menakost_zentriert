@@ -173,6 +173,7 @@ div.button {
   height: 5em;
   background-color: var(--darkColor3);
 }
+
 div.button a {
   display: block;
   text-align: center;
@@ -181,6 +182,10 @@ div.button a {
   color: var(--lightColor1);
   padding-top: 2em;
   height: 5em;
+}
+
+div.button p {
+  font-size: 0.6em;
 }
 
 .button:hover {
@@ -224,11 +229,11 @@ header {
 
 header h1 {
   font-size: 5em;
-  padding-top: 0.75em;
+  padding-top: 0.5em;
   line-height: 1.2em;
 }
 header h3 {
-  margin-top: 0.75em;
+  margin-top: 0.5em;
   font-size: 1.5em;
   line-height: 1.5em;
 }
@@ -262,7 +267,7 @@ div.fixed-header {
 /* depending on fixed header */
 /* home, about, contact, projekte, arbeitsproben */
 .main-content {
-  margin: 34em 0em 0em 0em;
+  margin: 32em 0em 0em 0em;
   background-color: var(--lightColor1);
   border-top: 0.5px solid var(--darkColor1);
   padding-bottom: 20em;
@@ -339,7 +344,7 @@ div.center-img {
   text-align: center;
 }
 
-body.aboutme .main-content {
+.aboutme .main-content {
   background-color: var(--lightColor0);
 }
 section.aboutme {
@@ -386,7 +391,7 @@ section.internal-links {
 
 /* MAIN SECTION */
 /* contact */
-body.contact .main-content {
+.contact .main-content {
   text-align: center;
   padding: 1.5em 0em 20em 0em;
   background-color: var(--lightColor0);
@@ -398,9 +403,9 @@ body.contact .main-content {
 
 /* MAIN SECTION */
 /* links */
-body.links .main-content {
+.links .main-content {
   text-align: center;
-  padding: 1.5em 0em 20em 0em;
+  padding: 0em 0em 20em 0em;
   background-color: var(--lightColor0);
 }
 
@@ -629,6 +634,7 @@ footer#home_footer {
 
   header h1 {
     font-size: 5em;
+    padding-top: 0.5em;
   }
 
   header p {
@@ -749,14 +755,27 @@ footer#home_footer {
   }
 
   .newImg {
-    top: 3em;
+    top: 4em;
   }
 
   .fixed-header header {
-    top: 11em;
+    top: 12em;
+    padding-top: 2em;
+  }
+  .home .main-content,
+  .aboutme .main-content,
+  .contact .main-content,
+  .projekte .main-content,
+  .arbeitsproben .main-content,
+  .links .main-content {
+    margin: 28em 0em 0em 0em;
   }
   header {
     margin-top: 13em;
+  }
+
+  header h1 {
+    padding-top: 0em;
   }
 }
 /* font-size small*/
@@ -787,7 +806,7 @@ footer#home_footer {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
   .main-content {
-    margin: 33em 0em 0em 0em;
+    margin: 30em 0em 0em 0em;
   }
 
   .fixed-header header {
