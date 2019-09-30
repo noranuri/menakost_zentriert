@@ -288,8 +288,8 @@ div.fixed-header {
 }
 
 .container div img.img-hoch {
-  height: 100%;
-  width: unset;
+  max-width: 40%;
+  height: fit-content;
 }
 
 #mena {
