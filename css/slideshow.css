@@ -38,17 +38,26 @@
 }
 
 button.slide-right {
-  font-size: 3em;
+  font-size: 1.5em;
   opacity: 0.5;
   float: right;
   margin-right: 5px;
 }
 
 button.slide-left {
-  font-size: 3em;
+  font-size: 1.5em;
   opacity: 0.5;
   float: left;
   margin-left: 5px;
+}
+
+@media screen and (min-width: 600px) {
+  button.slide-right {
+    font-size: 3em;
+  }
+  button.slide-left {
+    font-size: 3em;
+  }
 }
 
 @media screen and (min-width: 800px) {
