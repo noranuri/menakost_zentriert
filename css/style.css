@@ -98,8 +98,8 @@ div.button {
   text-align: left;
   font-size: 1.2em;
   background-color: var(--lightColor0);
-  border-bottom: 1px solid var(--darkColor2);
-  border: 0.2px solid var(--lightColor1);
+  /* border-bottom: 1px solid var(--darkColor2); */
+  /* border: 0.2px solid var(--lightColor1); */
 }
 
 div.button {
@@ -117,7 +117,7 @@ nav ul li a {
 }
 .active {
   background-color: var(--lightColor1);
-  border: 0.5px solid var(--darkColor2);
+  /* border: 0.5px solid var(--darkColor2); */
 }
 
 /* hover main menu */
@@ -171,6 +171,7 @@ div.button {
   z-index: 2;
   width: 100%;
   height: 5em;
+  /* height: 4em; */
   background-color: var(--darkColor3);
 }
 
@@ -791,9 +792,9 @@ footer#home_footer {
     padding-top: 1.2em;
     height: 4em;
   }
-  nav ul {
+  /* nav ul {
     top: 4em;
-  }
+  } */
 
   nav ul li a {
     height: 1.5em;
