@@ -33,13 +33,13 @@ nav {
 button a {
   /* background-color: lightyellow; */
   margin: -0.6em;
-  width: 100%;
+  /* width: 100%; */
 }
 
 /* Hide the icon to open and close the nav on big screens */
-.topnav .icon {
+/* .topnav .icon {
   display: none;
-}
+} */
 
 /* menu icon */
 a.icon {
@@ -105,9 +105,10 @@ i.fa {
   opacity: 0.5;
 } */
 .topnav a:hover:not(.active),
-.topnav .dropbtn:hover {
+.topnav .dropbtn a:hover:not(.active) {
   /* color: var(--lightColor0); */
-  background-color: var(--lightColor1);
+  background-color: var(--darkColor3);
+  color: var(--lightColor0);
 }
 
 /* background of dropdown links on hover */
@@ -176,7 +177,7 @@ i.fa {
 
   i.fa {
     float: right;
-    margin-top: -28px;
+    margin-top: -25px;
     padding: 6px 20px 6px 20px;
     background-color: var(--lightColor1);
     z-index: 100;
