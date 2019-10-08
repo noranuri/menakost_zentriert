@@ -11,6 +11,11 @@
   margin: 3em auto 5em auto;
 }
 
+.mySlides img {
+  width: 100%;
+  height: auto;
+}
+
 .mySlides {
   width: 100%;
   height: auto;
@@ -28,6 +33,17 @@
   bottom: 8%;
   left: 0;
   right: 0;
+}
+
+.TextImBild img {
+  display: block;
+}
+
+.TextImBild span {
+  background-color: hsla(0, 0%, 96%, 0.5);
+  position: absolute;
+  bottom: 2em;
+  padding: 0.2em;
 }
 
 .img:before {
