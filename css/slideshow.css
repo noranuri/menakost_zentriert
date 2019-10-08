@@ -21,7 +21,7 @@
   height: auto;
 }
 
-.mySlides#hoch {
+.mySlides#hoch img {
   max-height: 477px;
   width: auto;
   margin: auto;
@@ -46,6 +46,14 @@
   padding: 0.2em;
   line-height: 1.2em;
   font-size: 0.9em;
+  /* text-align: center; */
+  width: 100%;
+}
+
+.TextImBild#hoch span {
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .img:before {
