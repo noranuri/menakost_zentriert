@@ -42,8 +42,10 @@
 .TextImBild span {
   background-color: hsla(0, 0%, 96%, 0.5);
   position: absolute;
-  bottom: 2em;
+  bottom: 2.5em;
   padding: 0.2em;
+  line-height: 1.2em;
+  font-size: 0.9em;
 }
 
 .img:before {
@@ -73,6 +75,12 @@ button.slide-left {
   }
   button.slide-left {
     font-size: 3em;
+  }
+
+  .TextImBild span {
+    bottom: 2.1em;
+    line-height: 1.5em;
+    font-size: 1em;
   }
 }
 
