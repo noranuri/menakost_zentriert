@@ -1,7 +1,7 @@
 /* style nav */
 nav {
   background-color: var(--lightColor0);
-  margin-top: 5.8em;
+  margin-top: 5.9em;
   top: 0em;
   position: fixed;
   width: 100%;
@@ -129,7 +129,7 @@ i.fa {
 
 @media screen and (max-width: 350px) {
   nav {
-    margin-top: 4.8em;
+    margin-top: 4.9em;
   }
 }
 
