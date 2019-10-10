@@ -1,4 +1,63 @@
+/*  */
+/*  */
+/* style_menu.css */
+
+/*  */
+/* styles from old menu */
+/* main menu list items and menu-button*/
+
+/* nav > ul > li, */
+div.button {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-size: 1.2em;
+  background-color: var(--lightColor0);
+}
+
+div.button {
+  border: none;
+}
+
+/* MENU BUTTON */
+/* top button to show/hide main menu */
+div.button {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 5em;
+  background-color: var(--darkColor3);
+}
+
+div.button a {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--lightColor1);
+  padding-top: 2em;
+  height: 5em;
+}
+
+div.button p {
+  font-size: 0.6em;
+}
+
+.button:hover {
+  background-color: var(--darkColor2);
+}
+.button a:hover {
+  color: var(--lightColor0);
+}
+
+/*  */
+/* new menu */
+
 /* style nav */
+
 nav {
   background-color: var(--lightColor0);
   margin-top: 5.9em;
@@ -25,21 +84,15 @@ nav {
   text-align: center;
 }
 
+button a {
+  /* background-color: lightyellow; */
+  margin: -0.6em;
+}
+
 /*  highlight the current page */
 .active {
   background-color: var(--lightColor2);
 }
-
-button a {
-  /* background-color: lightyellow; */
-  margin: -0.6em;
-  /* width: 100%; */
-}
-
-/* Hide the icon to open and close the nav on big screens */
-/* .topnav .icon {
-  display: none;
-} */
 
 /* menu icon */
 a.icon {
@@ -50,16 +103,14 @@ a.icon {
 
 /* dropdown icon */
 i.fa {
-  z-index: 100;
   float: right;
-  margin-top: 5px;
-  margin-right: 0px;
-  margin-left: -20px;
+  margin: 5px 0px 0px -20px;
   padding: 1px 6px;
+  z-index: 100;
   /* background-color: aquamarine; */
 }
 
-/* Dropdown container is needed to position the dropdown content */
+/* Dropdown container (needed to position the dropdown content) */
 .dropdown {
   float: left;
   overflow: hidden;
@@ -74,9 +125,8 @@ i.fa {
   padding: 10px 5px 10px 10px;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
-  min-width: 130px;
   text-align: left;
+  min-width: 130px;
   height: 2.5em;
 }
 
@@ -98,18 +148,11 @@ i.fa {
   text-align: left;
 }
 
-/* background of topnav links and dropdown button on hover */
-/* .topnav a:hover:not(.active),
-.dropdown:hover .dropbtn {
-  color: var(--lightColor0);
-  background-color: var(--darkColor3);
-  opacity: 0.5;
-} */
+/* background of menu-lins on hover */
 .topnav a:hover:not(.active),
 .topnav .dropbtn a:hover:not(.active) {
-  /* color: var(--lightColor0); */
-  background-color: var(--darkColor3);
   color: var(--lightColor0);
+  background-color: var(--darkColor3);
 }
 
 /* background of dropdown links on hover */
@@ -119,7 +162,7 @@ i.fa {
   opacity: 0.5;
 }
 
-/* show dropdown menu on hover the dropdown button */
+/* show dropdown menu on hover dropdown button */
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -129,14 +172,26 @@ i.fa {
 }
 
 @media screen and (max-width: 350px) {
+  div.button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 4em;
+    background-color: var(--darkColor3);
+  }
+  div.button a {
+    padding-top: 1.2em;
+    height: 4em;
+  }
+
   nav {
     margin-top: 4.8em;
   }
 }
 
 @media screen and (max-width: 800px) {
-  /* .topnav a:not(:first-child), */
-
   .topnav {
     display: none;
     position: relative;
@@ -149,7 +204,6 @@ i.fa {
     display: block;
     text-align: left;
     height: 2.5em;
-    /* border-bottom: 0.025px solid var(--darkColor2); */
   }
 
   .topnav a.icon {
@@ -165,22 +219,21 @@ i.fa {
     float: none;
   }
 
-  .topnav .dropdown-content {
-    position: relative;
-    background-color: var(--lightColor1);
-    opacity: 0.75;
-  }
   .topnav .dropdown .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
   }
 
+  .topnav .dropdown-content {
+    position: relative;
+    background-color: var(--lightColor1);
+    opacity: 0.75;
+  }
+
   i.fa {
     float: right;
-
     margin-top: -25px;
-
     padding: 6px 20px 6px 20px;
     background-color: var(--lightColor1);
     z-index: 100;
@@ -191,36 +244,3 @@ i.fa {
     display: block;
   }
 }
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-/* @media screen and (max-width: 768px) {
-  .topnav {
-    position: relative;
-  }
-  .topnav a.icon {
-    position: absolute;
-    display: block;
-    text-align: right;
-    right: 0px;
-    top: 0;
-  }
-
-  .topnav a {
-    float: none;
-    display: block;
-    text-align: left;
-    border-bottom: 0.025px solid var(--lightColor1);
-  }
-
-  .topnav .dropdown {
-    float: none;
-  }
-  .topnav .dropdown-content {
-    position: relative;
-  }
-  .topnav .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-} */
