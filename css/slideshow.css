@@ -51,7 +51,8 @@
 }
 
 .TextImBild#hoch span {
-  width: 50%;
+  position: absolute;
+  width: 90%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -75,6 +76,12 @@ button.slide-left {
   opacity: 0.5;
   float: left;
   margin-left: 5px;
+}
+
+@media screen and (min-width: 400px) {
+  .TextImBild#hoch span {
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 780px) {

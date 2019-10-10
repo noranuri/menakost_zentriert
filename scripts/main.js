@@ -32,11 +32,11 @@ $(document).ready(function() {
 
 // Click to show dropdown submenu1
 // über mich / kontakt
-function myFunction1() {
+function Function1() {
   document.getElementById("myDropdown1").classList.toggle("show");
 }
 
 //Click to show dropdown submenu2
-function myFunction2() {
+function Function2() {
   document.getElementById("myDropdown2").classList.toggle("show");
 }
