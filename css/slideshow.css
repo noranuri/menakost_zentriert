@@ -22,8 +22,10 @@
 }
 
 .mySlides#hoch img {
-  max-height: 477px;
-  width: auto;
+  /* max-height: 477px;
+  width: auto; */
+  max-width: 350px;
+  height: auto;
   margin: auto;
 }
 
@@ -42,17 +44,27 @@
 .TextImBild span {
   background-color: hsla(0, 0%, 96%, 0.5);
   position: absolute;
-  bottom: 2.5em;
+  bottom: 2.3em;
   padding: 0.2em;
   line-height: 1.2em;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  font-size: 1em;
   /* text-align: center; */
   width: 100%;
 }
 
+body.projekt1 .TextImBild span {
+  /* background-color: hsla(0, 0%, 96%, 0.5);
+  position: absolute; */
+  /* bottom: 2.3em; */
+  bottom: auto;
+  top: 0em;
+
+  /* padding: 0.5em; */
+}
+
 .TextImBild#hoch span {
-  position: absolute;
-  width: 90%;
+  max-width: 350px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -79,9 +91,9 @@ button.slide-left {
 }
 
 @media screen and (min-width: 400px) {
-  .TextImBild#hoch span {
-    width: 40%;
-  }
+  /* .TextImBild#hoch span {
+    max-width: 350px;
+  } */
 }
 
 @media screen and (min-width: 780px) {
@@ -94,8 +106,8 @@ button.slide-left {
 
   .TextImBild span {
     bottom: 2.1em;
-    line-height: 1.5em;
-    font-size: 1em;
+    /* line-height: 1.5em; */
+    /* font-size: 1em; */
   }
 }
 
