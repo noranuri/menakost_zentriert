@@ -470,7 +470,7 @@ a.button-img:hover {
   line-height: 1.5em;
   font-size: 1.2em;
   font-family: "Open Sans", sans-serif;
-  font-weight: normal;
+  /* font-weight: normal; */
   text-transform: capitalize;
 }
 
@@ -513,7 +513,7 @@ footer#home_footer {
   background-color: var(--darkColor2);
   opacity: 1;
   /* line-height: 3em; */
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 footer h3 {

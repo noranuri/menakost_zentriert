@@ -36,6 +36,7 @@ div.button a {
   color: var(--lightColor1);
   padding-top: 2em;
   height: 5em;
+  font-weight: light;
 }
 
 div.button p {
