@@ -84,6 +84,7 @@ nav {
 button a {
   /* background-color: lightyellow; */
   margin: -0.6em;
+  height: 2.5em;
 }
 
 /*  highlight the current page */
