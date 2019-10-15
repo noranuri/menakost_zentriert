@@ -296,14 +296,14 @@ section.internal-links {
   width: 100%;
   text-align: center;
   /* font-size: 1.2em; */
-  background-color: var(--darkColor2);
-  opacity: 0.75;
+  /* background-color: var(--darkColor2); */
+  /* opacity: 0.75; */
   padding: 0.5em;
   line-height: 2em;
 }
 .list a {
-  text-decoration: none;
-  color: var(--lightColor0);
+  /* text-decoration: none; */
+  /* color: var(--lightColor0); */
 }
 
 .list li:hover {
