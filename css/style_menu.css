@@ -27,7 +27,7 @@ div.button {
   height: 5em;
   background-color: var(--darkColor3);
   /* border-bottom: 1px solid var(--lightColor0); */
-  box-shadow: 0 1px 6px 0 var(--darkColor3);
+  /* box-shadow: 0 1px 6px 0 var(--darkColor3); */
 }
 
 div.button a {
