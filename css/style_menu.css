@@ -13,6 +13,7 @@ div.button {
   width: 100%;
   text-align: left;
   font-size: 1.2em;
+
   background-color: var(--lightColor0);
 }
 
@@ -25,7 +26,8 @@ div.button {
   z-index: 0;
   width: 100%;
   height: 5em;
-  background-color: var(--darkColor3);
+  background-color: var(--darkColor2);
+
   /* border-bottom: 1px solid var(--lightColor0); */
   /* box-shadow: 0 1px 6px 0 var(--darkColor3); */
 }
@@ -38,19 +40,19 @@ div.button a {
   color: var(--lightColor1);
   padding-top: 2em;
   height: 5em;
-  font-weight: light;
+  font-weight: lighter;
 }
 
 div.button p {
   font-size: 0.6em;
 }
 
-.button:hover {
+/* .button:hover {
   background-color: var(--darkColor2);
-}
-.button a:hover {
+} */
+/* .button a:hover {
   color: var(--lightColor0);
-}
+} */
 
 /*  */
 /* new menu */
@@ -89,6 +91,7 @@ nav {
 button a {
   /* background-color: lightyellow; */
   margin: -0.6em;
+  font-weight: lighter;
 }
 
 /*  highlight the current page */
@@ -109,6 +112,7 @@ i.fa {
   margin: 5px 0px 0px -20px;
   padding: 1px 6px;
   z-index: 100;
+
   /* background-color: aquamarine; */
 }
 
