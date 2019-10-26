@@ -243,8 +243,9 @@ blockquote {
   background-color: var(--darkColor2);
   opacity: 0.75;
   color: var(--lightColor1);
-  text-align: center;
-  margin: 1em 0em 2em 0em;
+  /* text-align: center; */
+  margin: 1em auto 2em auto;
+  max-width: 800px;
 }
 blockquote p {
   font-family: "Merriweather", serif;
@@ -257,7 +258,7 @@ blockquote p {
 }
 
 .contact blockquote {
-  margin: 0em;
+  margin: 0em auto;
 }
 .contact blockquote p {
   padding: 1em;
@@ -303,18 +304,20 @@ section.internal-links {
   width: 100%;
   text-align: center;
   /* font-size: 1.2em; */
-  background-color: var(--darkColor2);
-  opacity: 0.75;
+  /* background-color: var(--darkColor2); */
+  /* opacity: 0.75; */
   padding: 0.5em;
   line-height: 2em;
 }
 .list a {
   /* text-decoration: none; */
-  color: var(--lightColor0);
+  /* color: var(--lightColor0); */
 }
 
-.list li:hover {
-  opacity: 1;
+.list li a:hover {
+  background-color: var(--darkColor3);
+  /* opacity: 0.5; */
+  padding: 0.5em;
 }
 
 /* MAIN SECTION */
@@ -606,7 +609,7 @@ footer#home_footer {
 
   /* aboutme */
   blockquote {
-    margin: 2em 0em 3em 0em;
+    margin: 2em auto 3em auto;
   }
 
   .aboutme blockquote p {
