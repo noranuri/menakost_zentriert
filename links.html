@@ -31,7 +31,19 @@
       </div>
 
       <div class="topnav" id="myTopnav">
-        <a href="index.html">Aktuell</a>
+        <!-- dropdown 2 - Projekte -->
+        <div class="dropdown">
+          <button class="dropbtn">
+            <a href="index.html">Aktuell</a>
+
+            <i class="fa fa-caret-down " onclick="Function2()"> </i>
+          </button>
+          <div class="dropdown-content" id="myDropdown2">
+            <a href="projekt1.html">Kinderbuch</a>
+            <a href="projekt2.html">Porträtbuch</a>
+            <a href="projekt3.html">Bilderbuch</a>
+          </div>
+        </div>
 
         <!-- dropdown 1 - Über mich -->
         <div class="dropdown">
@@ -43,20 +55,6 @@
             <a href="contact.html">Kontakt</a>
           </div>
         </div>
-
-        <!-- dropdown 2 - Projekte -->
-        <!-- <div class="dropdown">
-          <button class="dropbtn"> -->
-        <!-- <a href="projekte.html">Projekte</a> -->
-        <!-- <a>Projekte</a>
-            <i class="fa fa-caret-down " onclick="Function2()"> </i>
-          </button>
-          <div class="dropdown-content" id="myDropdown2">
-            <a href="projekt1.html">Kinderbuch</a>
-            <a href="projekt2.html">Porträtbuch</a>
-            <a href="projekt3.html">Bilderbuch</a>
-          </div>
-        </div> -->
 
         <a href="texte.html">Texte</a>
         <a href="links.html" class="active">Links</a>
@@ -89,21 +87,27 @@
       </div> -->
 
       <ul id="links">
-        <li>
+        <!-- <li>
           <a
             href="https://www.annatschannen.ch/7381041/performance"
             target="blank"
             >Anna Tschannen - Haare, Maske, Performance</a
           >
-        </li>
+        </li> -->
         <li>
           <a href="http://www.annetteboutellier.com/" target="blank"
-            >Annette Boutelier - Fotografin
+            >Annette Boutelier - Fotografie
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a href="https://www.florianlukashuber.ch/" target="blank"
             >Florian Huber - Sprecher</a
+          >
+        </li> -->
+
+        <li>
+          <a href="http://www.focus-grafik.ch/" target="blank"
+            >Karin Rütsche - Grafik</a
           >
         </li>
         <li>
@@ -118,6 +122,11 @@
         </li>
 
         <li>
+          <a href="https://www.careum-verlag.ch/" target="blank"
+            >Careum Verlag</a
+          >
+        </li>
+        <li>
           <a href="https://www.merianverlag.ch/" target="blank"
             >Merian Verlag
           </a>
@@ -131,6 +140,9 @@
           <a href="https://www.reinhardt.ch" target="blank"
             >Reinhardt Verlag
           </a>
+        </li>
+        <li>
+          <a href="https://surprise.ngo/" target="blank">Surprise</a>
         </li>
       </ul>
     </div>
