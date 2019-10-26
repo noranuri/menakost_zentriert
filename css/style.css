@@ -311,10 +311,10 @@ section.internal-links {
   padding: 0.5em;
   line-height: 2em;
 }
-.list a {
-  /* text-decoration: none; */
-  /* color: var(--lightColor0); */
-}
+/* .list a {
+  text-decoration: none;
+  color: var(--lightColor0);
+} */
 
 .list li a:hover {
   background-color: var(--darkColor3);
@@ -489,7 +489,7 @@ a.button-img:hover {
 /* BOTTOM OF PAGE */
 /* bottom of all pages */
 
-.bottom {
+/* .bottom {
   width: 100%;
   background-color: var(--darkColor3);
   background-color: var(--darkColor2);
@@ -501,8 +501,6 @@ a.button-img:hover {
   color: var(--lightColor1);
   line-height: 1.5em;
   font-size: 1em;
-  /* font-family: "Open Sans", sans-serif; */
-  /* font-weight: normal; */
   text-transform: capitalize;
   font-weight: lighter;
   display: none;
@@ -517,7 +515,7 @@ a.button-img:hover {
 #bottom {
   margin: 0px;
   padding: 4em 0em 2em 0em;
-}
+} */
 
 /* background image bottom of page */
 /* projekt1 */
